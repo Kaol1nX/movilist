@@ -49,12 +49,12 @@ addButton.addEventListener('click', () => {
         return;
     }
     movieTitles.push(title);
-      moviePosters.push(poster);
+    moviePosters.push(poster);
 
-      nameInput.value = '';
-      posterInput.value = '';
-
-      renderMovies();
-    });
+    nameInput.value = '';
+    posterInput.value = '';
 
     renderMovies();
+});
+
+renderMovies();
